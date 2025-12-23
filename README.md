@@ -8,30 +8,29 @@ The system uses supervised learning techniques and feature scaling to provide ac
 ## 📁 Project Structure
 
 CropPrediction/
-│
 ├── app.py
-│   # Main Flask application file used for serving predictions
+│   └── Main Flask application file
 │
 ├── Crop Recommendation Using Machine Learning.ipynb
-│   # Jupyter Notebook for data preprocessing, feature scaling,
-│   # model training, evaluation, and model saving
+│   └── Jupyter Notebook for data preprocessing, feature scaling,
+│       model training, and evaluation
 │
 ├── Crop_recommendation.csv
-│   # Dataset used for training the crop recommendation model
+│   └── Dataset used for training the crop recommendation model
 │
 ├── model.pkl
-│   # Trained machine learning model
+│   └── Trained machine learning model
 │
 ├── minmaxscaler.pkl
-│   # MinMaxScaler used during data preprocessing
+│   └── MinMaxScaler used during preprocessing
 │
 ├── standscaler.pkl
-│   # StandardScaler used during data preprocessing
+│   └── StandardScaler used during preprocessing
 │
-├── README.md
-│   # Project documentation
+└── README.md
+    └── Project documentation
 
---
+---
 
 ## 🚀 Features
 
